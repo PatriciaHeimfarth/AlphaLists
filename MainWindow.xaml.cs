@@ -32,7 +32,7 @@ namespace ABC
             if (saveFileDialog.ShowDialog() == true)
                 File.AppendAllText(saveFileDialog.FileName, A.Text);
             File.AppendAllText(saveFileDialog.FileName, "\n\n");
-           File.AppendAllText(saveFileDialog.FileName, B.Text);
+            File.AppendAllText(saveFileDialog.FileName, B.Text);
             File.AppendAllText(saveFileDialog.FileName, "\n\n");
             File.AppendAllText(saveFileDialog.FileName, C.Text);
             File.AppendAllText(saveFileDialog.FileName, "\n\n");
@@ -81,6 +81,37 @@ namespace ABC
             File.AppendAllText(saveFileDialog.FileName, Y.Text);
             File.AppendAllText(saveFileDialog.FileName, "\n\n");
             File.AppendAllText(saveFileDialog.FileName, Z.Text);
+        }
+
+        public void Refresh(object sender, RoutedEventArgs e)
+        {
+            A.Text = "A";
+            B.Text = "B";
+            C.Text = "C";
+            D.Text = "D";
+            E.Text = "E";
+            F.Text = "F";
+            G.Text = "G";
+            H.Text = "H";
+            I.Text = "I";
+            J.Text = "J";
+            K.Text = "K";
+            L.Text = "L";
+            M.Text = "M";
+            N.Text = "N";
+            O.Text = "O";
+            P.Text = "P";
+            Q.Text = "Q";
+            R.Text = "R";
+            S.Text = "S";
+            T.Text = "T";
+            U.Text = "U";
+            V.Text = "V";
+            W.Text = "W";
+            X.Text = "X";
+            Y.Text = "Y";
+            Z.Text = "Z";
+          
         }
     }
 }

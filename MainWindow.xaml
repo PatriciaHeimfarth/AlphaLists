@@ -113,6 +113,7 @@
                    Z
                 </TextBox>
                 <Button Name="btnSaveFile" Click="SaveFile" Background="Black" Foreground="White">Save file</Button>
+                <Button Name="btnRefreshFile" Click="Refresh" Background="Black" Foreground="White">Refresh</Button>
             </StackPanel>
         </ScrollViewer>
     </Grid>
