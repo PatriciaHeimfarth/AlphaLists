@@ -17,11 +17,11 @@
                    B
                 </TextBox>
 
-                <TextBox Grid.Row="2" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"  BorderBrush = "Black">
+                <TextBox Grid.Row="2" Name="C" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"  BorderBrush = "Black">
                  C
                 </TextBox>
 
-                <TextBox Grid.Row="3" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"  BorderBrush = "Black">
+                <TextBox Grid.Row="3" Name="D" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"  BorderBrush = "Black">
                    D
                 </TextBox>
 

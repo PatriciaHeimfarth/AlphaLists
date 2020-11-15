@@ -30,7 +30,57 @@ namespace ABC
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             if (saveFileDialog.ShowDialog() == true)
-                File.WriteAllText(saveFileDialog.FileName, A.Text);
+                File.AppendAllText(saveFileDialog.FileName, A.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+           File.AppendAllText(saveFileDialog.FileName, B.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, C.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, D.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, E.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, F.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, G.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, H.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, I.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, J.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, K.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, L.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, M.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, N.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, O.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, P.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, Q.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, R.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, S.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, T.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, U.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, V.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, W.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, X.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, Y.Text);
+            File.AppendAllText(saveFileDialog.FileName, "\n\n");
+            File.AppendAllText(saveFileDialog.FileName, Z.Text);
         }
     }
 }
