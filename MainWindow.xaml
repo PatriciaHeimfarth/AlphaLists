@@ -112,6 +112,7 @@
                 <TextBox   Grid.Row="25" Name="Z" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"  BorderBrush = "Black">
                    Z
                 </TextBox>
+                <Button Name="btnSaveFile" Click="SaveFile" Background="Black" Foreground="White">Save file</Button>
             </StackPanel>
         </ScrollViewer>
     </Grid>
